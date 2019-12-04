@@ -53,6 +53,10 @@ public class OsiSoft {
             }
         }
         return rangeList; // Returns the continuous range
+        
+        /*Time complexity for this program is O(n) because it has a for loop through the list, which is n long, which determintes the
+        time needed for the program to finish. The while loop is O(1), and is not based on the length of the list.  
+        */
     }
 
 }
